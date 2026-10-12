@@ -1,8 +1,8 @@
-# Privacy Policy for MediaTransparencyFR
+# Privacy Policy for Cékikalemédia
 
 **Effective date:** October 4, 2026
 
-MediaTransparencyFR (the “Extension”) displays information about the ownership of supported media websites.
+Cékikalemédia (the “Extension”) displays information about the ownership of supported media websites.
 
 ## Data the Extension accesses
 
