@@ -1,8 +1,8 @@
-# Privacy Policy for MediaTransparencyFR
+# Privacy Policy for Cékikalemédia
 
-**Effective date:** October 4, 2026
+**Effective date:** October 24, 2026
 
-MediaTransparencyFR (the “Extension”) displays information about the ownership of supported media websites.
+Cékikalemédia (the “Extension”) displays information about the ownership of supported media websites.
 
 ## Data the Extension accesses
 
@@ -23,9 +23,9 @@ This information remains in the user's browser profile and is not used to identi
 
 ## Network requests and data sharing
 
-When the Extension is enabled or the user requests a data refresh, it connects to a fixed Supabase project to download the public website-ownership dataset. These requests do not include the URL or hostname of the page being viewed, page contents, or other browsing activity.
+When the Extension is enabled or the user requests a data refresh, it connects to the fixed HTTPS endpoint `data.cekikalemedia.fr` to download the public website-ownership dataset. These requests do not include the URL or hostname of the page being viewed, page contents, or other browsing activity.
 
-Like any network service, Supabase and the network infrastructure involved in delivering the dataset may automatically receive standard technical request information, such as the user's IP address, user agent, request time, and diagnostic logs. This information is handled by Supabase under its own privacy terms and is not used by the Extension publisher to track browsing activity.
+Like any network service, the data service and its infrastructure providers may automatically receive standard technical request information, such as the user's IP address, user agent, request time, and diagnostic logs. This information is used to deliver, secure, and maintain the dataset service and is not used by the Extension publisher to track browsing activity.
 
 The Extension does not sell personal information. It does not transfer user data to third parties for advertising, profiling, credit decisions, or other purposes unrelated to the Extension's single purpose.
 
@@ -35,7 +35,7 @@ The Extension uses:
 
 - **Storage permission** to save the local settings, public dataset cache, refresh time, and operational status described above.
 - **Access to HTTP and HTTPS webpages** to read the current hostname and display the informational banner on matching websites. Matching is performed locally.
-- **Optional access to the configured Supabase project** solely to download the public website-ownership dataset.
+- **Optional access to `https://data.cekikalemedia.fr/*`** solely to download the public website-ownership dataset. Chrome requests this permission when the user enables the Extension.
 
 The Extension does not request access to browser history, cookies, downloads, or browsing-data APIs.
 
@@ -53,6 +53,5 @@ This policy may be updated if the Extension's functionality or data practices ch
 
 ## Contact
 
-Publisher: Tim Bo 
-Privacy contact: tboudot2@gmail.com
-
+Publisher: Tim Bo  
+Privacy contact: tim.boudot@editions-boudot.fr
